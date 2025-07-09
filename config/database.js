@@ -5,7 +5,7 @@ const pool = new Pool({
   port: 5432,
   database: 'postgres',
   user: 'postgres',
-  password: '($Ali@#$_)1', 
+  password: '', 
   max: 20,
   idleTimeoutMillis: 30000,
   connectionTimeoutMillis: 2000,
